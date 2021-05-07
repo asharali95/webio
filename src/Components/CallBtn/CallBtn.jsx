@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import { createOffer } from "../../utility";
 
 const CallBtn = () => {
-    return (
-        <button disabled className="call-btn">
-            Call
-        </button>
-    )
-}
+  return (
+    <button className="call-btn" onClick={createOffer}>
+      Call
+    </button>
+  );
+};
 
-export default CallBtn
+export default CallBtn;
